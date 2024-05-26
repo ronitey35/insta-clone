@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-black flex justify-between items-center p-2 md:hidden">
+    <div className="bg-black h-16 flex justify-between items-center p-2 md:hidden ">
       <h1 className="text-white text-2xl px-2 py-2 md:hidden">ℑ𝔫𝔰𝔱𝔞𝔤𝔯𝔞𝔪</h1>
 
       {/* BreakPoints */}

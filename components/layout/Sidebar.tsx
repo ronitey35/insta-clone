@@ -15,16 +15,13 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-black h-[100%] w-[70px] lg:w-[240px] ">
-      <Link
-        href="/"
-        className="m-2 flex items-center p-2 gap-8  rounded-2xl hover:bg-slate-900 transition-all duration-300"
-      >
+    <div className="sticky bg-black w-[70px] lg:w-[300px] hidden md:block  h-screen ">
+      <div className="flex items-center p-2  rounded-2xl hover:bg-slate-900 transition-all duration-300">
         <Instagram color="#ffffff" className="size-11 lg:hidden" />
         <span className="hidden lg:flex text-white p-2 px-12 text-2xl">
           ℑ𝔫𝔰𝔱𝔞𝔤𝔯𝔞𝔪{" "}
         </span>
-      </Link>
+      </div>
       <Link
         href="/"
         className="m-2 flex items-center p-[10px]  gap-8  rounded-xl hover:bg-slate-900 transition-all duration-300 "
